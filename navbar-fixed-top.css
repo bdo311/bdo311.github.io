@@ -1,12 +1,23 @@
 body {
   min-height: 200px;
-  padding-top: 70px;
+  padding-top: 85px;
+  background: transparent;
 }
 
-.container{
-    max-width: 970px;
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
 }
-#content{
-  width:920px;
-  margin:0 auto;/*this will center ur content*/
+
+.full {
+    background: url('golden-gate-1920-1080-7578.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel {
+	background-color: rgba(255, 255, 255, 0.8);
 }
