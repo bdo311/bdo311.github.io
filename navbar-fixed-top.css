@@ -1,0 +1,13 @@
+body {
+  min-height: 200px;
+  padding-top: 70px;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+#content{
+  width:920px;
+  margin:0 auto;/*this will center ur content*/
+}
