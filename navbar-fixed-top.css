@@ -9,7 +9,7 @@ body {
         max-width: 970px;
     }
 }
-
+/*
 .full {
     background: url('golden-gate-1920-1080-7578.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -17,7 +17,8 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-
+*/
 .panel {
 	background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: none;
 }
