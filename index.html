@@ -12,10 +12,10 @@
     <title>Brian Do</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <!-- <link href="navbar-fixed-top.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,50 +26,45 @@
 
   <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Brian Do</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="research.html">Research Interests</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="software.html">Projects</a></li>
-            <li><a href="/blog">Blog</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div><!--/container -->
+    <nav class="navbar fixed-top navbar-expand flex-md-row navbar-light bg-light">
+      <a class="navbar-brand" href="#">Brian Do</a>      
+      <span class="navbar-brand"> | </span>
+      <div class="navbar-nav bd-navbar-nav flex-row">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="publications.html">Publications</a>
+        <a class="nav-item nav-link" href="projects.html">Projects</a>
+        <a class="nav-item nav-link" href="/blog">Blog</a>
+      </div>
     </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
 
     <div class="container">
       <div class="row">
         <div class="col-md-3" align="center">
           <td><img width="198" src="./pictures/brian.PNG"></td>
         </div>
-        <div class="col-md-9 panel">
-          Hi! I'm a third-year MD-PhD student in the Medical Scientist Training Program at Harvard Medical School and MIT. My PhD is in the <a href=https://hst.mit.edu/academics/memp>Medical Engineering and Medical Physics</a> program at MIT.<br><br>
-          During undergrad, I majored in biology and computer science at <a href="http://stanford.edu/">Stanford University</a>. I did my undergrad research with <a href="http://changlab.stanford.edu">Dr. Howard Chang</a>. I studied noncoding RNAs and their structure, interactions, and function. We discovered how these RNAs orchestrate gene regulation, cell fate, and many other processes through noncanonical functions. Previously, I worked with <a href="http://urogene.org">Dr. Long-Cheng Li</a> at UCSF on small RNA-mediated gene activation in the worm C. elegans. <br><br>
-          I'm also excited by the role of technology in healthcare and other industries. During summer 2015, I interned at <a href="http://www.flatiron.com">Flatiron Health</a> in New York City as a Data Insights Engineer, where I helped build analytics tools on top of a million-patient clinicogenomic database that will be used for drug discovery and personalized medicine. <br><br>
-          In my free time I love running, sailing, biking, and learning to bake. I follow college football pretty avidly and enjoy learning new skills, whether it's a new instrument, programming language, or sport. Finally, I love tacos. Contact me if you know of a great taco place. <br><br>
-          Email me at briando at mit.edu or brian_do at hms.harvard.edu.
+        <div class="col-md-1 panel">
+        </div>
+        <div class="col-md-8 panel">
+        <p class="lead">
+          Hi! I'm a third-year MD-PhD student in the <a href="https://www.hms.harvard.edu/md_phd/">Medical Scientist Training Program</a> at Harvard Medical School and MIT. My PhD is in the <a href=https://hst.mit.edu/academics/memp>Medical Engineering and Medical Physics</a> program at MIT.</p>
+          I completed my undergradute degree at Stanford University in biology and computer science. I was advised by <a href="http://changlab.stanford.edu">Dr. Howard Chang</a>, where I studied noncoding RNAs and their structure, interactions, and function. We discovered how these RNAs orchestrate gene regulation, cell fate, and many other processes through noncanonical functions. Previously, I worked with <a href="http://urogene.org">Dr. Long-Cheng Li</a> at UCSF on small RNA-mediated gene activation in the worm C. elegans. <br><br>
+          I'm also excited by the role of technology in healthcare and other industries. During summer 2015, I interned at <a href="http://www.flatiron.com">Flatiron Health</a> as a Data Insights Engineer, where I helped build analytics tools on top of a million-patient clinicogenomic database that will be used for drug discovery and personalized medicine. <br><br>
+          In my free time I love running, sailing, biking, and baking. I follow college football pretty avidly and enjoy learning new skills, whether it's a new instrument, programming language, or sport. Finally, I love tacos. Contact me if you know of a great taco place. <br><br>
+          Email me at briando at mit dot edu or brian_do at hms dot harvard dot edu.
+          
         </div>
       </div>
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
